@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.hibernate">
+	<class name="Student" table="mystudents">
+		<id name="sid" column="sid" type="int">
+			<generator class="increment" />
+		</id>
+		<property name="sname" />
+		<property name="city" />
+		<property name="status" />
+		<property name="totalfee" type="double" />
+	</class>
+
+
+
+	<class name="OldStudent" table="ostudents">
+		<id name="sid" column="sid" type="int">
+			<generator class="increment"/>
+		</id>
+		<property name="sname" />
+		<property name="city" />
+		<property name="status" />
+		<property name="totalfee" type="double" />
+		<property name="ocompany" />
+		<property name="ocemail" />
+		<property name="octc" type="double" />
+	</class>
+
+	<class name="CurrentStudent" table="cstudents">
+		<id name="sid" column="sid" type="int">
+			<generator class="increment"/>
+		</id>
+		<property name="sname" />
+		<property name="city" />
+		<property name="status" />
+		<property name="totalfee" type="double" />
+		<property name="feebal" />
+		<property name="timings" />
+		<property name="branch" />
+	</class>
+	
+	
+	<class name="WeekdayStudent" table="wdstudents">
+		<id name="sid" column="sid" type="int">
+			<generator class="increment"/>
+		</id>
+		<property name="sname" />
+		<property name="city" />
+		<property name="status" />
+		<property name="totalfee" type="double" />
+		<property name="feebal" type="double"/>
+		<property name="timings" />
+		<property name="branch" />
+		<property name="qualifaication" />
+		<property name="percentage" />
+		<property name="yop" type="int" />
+	</class>
+	
+	
+	
+	<class name="WeekendStudent" table="westudents">
+		<id name="sid" column="sid" type="int">
+			<generator class="increment"/>
+		</id>
+		<property name="sname" />
+		<property name="city" />
+		<property name="status" />
+		<property name="totalfee" type="double" />
+		<property name="feebal" type="double"/>
+		<property name="timings" />
+		<property name="branch" />
+		<property name="wcompany" />
+		<property name="wcemail" />
+		<property name="wctc" type="double" />
+	</class>
+
+</hibernate-mapping>

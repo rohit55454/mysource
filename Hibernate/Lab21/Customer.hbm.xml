@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.hibernate">
+	<class name="Customer" table="customers">
+		<id name="cid" column="cid" type="int">
+			<generator class="increment" />
+		</id>
+
+		<timestamp name="tstamp" column="timestamp" />	
+		<property name="cname" column="cname" type="string" />
+		<property name="email" column="email" type="string" />
+		<property name="phone" column="phone" type="long" />
+
+	</class>
+</hibernate-mapping>

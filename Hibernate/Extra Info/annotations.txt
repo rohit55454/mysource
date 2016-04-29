@@ -1,0 +1,37 @@
+>	@Entity :
+			means persistence class
+			 
+>	@Table(name="students") :
+			@Table is set at the class level; it allows you to define the table, catalog, and schema names for your entity mapping. If no @Table is defined the default values are used: the unqualified class name of the entity.
+	
+>	@Id :
+			@Entity declares the class as an entity (i.e. a persistent POJO class), @Id declares the identifier property of this entity.
+			
+>	@GeneratedValue(strategy=GenerationType.AUTO) :
+			the auto generation of primary key
+			
+>	@Column(name="sid") :
+			it will create column with name SID, if we dont specify @Column then it will create column with variables defined in POJO.
+			
+>	@ElementCollection :
+			You can map Collection, List, Map and Set pointing to associated entities as one-to-many or many-to-many associations using the @OneToMany or @ManyToMany annotation respectively. If the collection is of a basic type or of an embeddable type, use @ElementCollection. We will describe that in more detail in the following subsections.
+			
+>	@CollectionTable(name="courses", joinColumns=@JoinColumn(name="sid")) :
+			The collection table holding the collection data is set using the @CollectionTable annotation. If omitted the collection table name default to the concatenation of the name of the containing entity and the name of the collection attribute, separated by an underscore.
+			
+>	@OrderColumn(name="idx") :
+			To store the index value in a dedicated column, use the @javax.persistence.OrderColumn annotation on your property. This annotations describes the column name and attributes of the column keeping the index value. This column is hosted on the table containing the association foreign key. If the column name is not specified, the default is the name of the referencing property, followed by underscore, followed by ORDER (in the following example, it would be orders_ORDER).
+
+>	@Inheritance(strategy=InheritanceType.JOINED) :
+>	@PrimaryKeyJoinColumn and @PrimaryKeyJoinColumns :
+			These annotations define the primary key(s) of the joined subclass table.
+			
+>	@DiscriminatorColumn :
+			
+>	@DiscriminatorValue :
+		
+
+
+-----------------------------------------------------------------------------------------------------
+@Inheritance and @DiscriminatorColumn should only be defined at the top of the entity hierarchy.
+-----------------------------------------------------------------------------------------------------

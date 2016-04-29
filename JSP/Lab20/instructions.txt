@@ -1,0 +1,1 @@
+place a folder inside WEB-INF named files and put some content according to DownloadServlet.java

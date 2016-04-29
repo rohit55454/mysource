@@ -1,0 +1,13 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>demoserv</servlet-name>  
+<servlet-class>com.db.servlet.ConnectMsAccessServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>demoserv</servlet-name>  
+<url-pattern>/test.jlc</url-pattern>  
+</servlet-mapping>  
+   
+</web-app>  

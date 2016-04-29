@@ -1,0 +1,3 @@
+AssociationMapping_one2oneBiDirectional
+
+Using XML

@@ -1,0 +1,13 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>http://jlcindia.com/tag</uri>
+
+	<tag>
+		<name>upper</name>
+		<tag-class>com.jlc.tag.UpperTag</tag-class>
+		<body-content>jsp</body-content>
+
+	</tag>
+
+</taglib>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.hibernate">
+	<class name="Request" table="requests">
+		<id name="reqId" column="reqid" type="int">
+			<generator class="increment" />
+		</id>
+		<property name="reqDate" />
+		<property name="description" />
+		<property name="status" />
+
+		<many-to-one name="customer" class="Customer" column="cid" />
+
+	</class>
+</hibernate-mapping>

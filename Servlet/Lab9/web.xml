@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+<servlet>
+<servlet-name>redirectServ</servlet-name>
+<servlet-class>com.jlcindia.servlets.SendRedirect</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>redirectServ</servlet-name>
+<url-pattern>/redirect.jlc</url-pattern>
+</servlet-mapping>
+
+</web-app>

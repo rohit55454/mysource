@@ -1,0 +1,23 @@
+<web-app>
+
+	<context-param>
+		<param-name>state</param-name>
+		<param-value>Karnataka</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>city</param-name>
+		<param-value>bangalore</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>testS</servlet-name>
+		<servlet-class>com.jlc.TestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>testS</servlet-name>
+		<url-pattern>/test.jlc</url-pattern>
+	</servlet-mapping>
+
+</web-app>

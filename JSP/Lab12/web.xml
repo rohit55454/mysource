@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>cl</servlet-name>
+<servlet-class>com.jlc.servlet.ChangeLanguage</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>cl</servlet-name>
+<url-pattern>/change.jlc</url-pattern>
+</servlet-mapping>
+
+</web-app>

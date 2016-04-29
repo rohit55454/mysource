@@ -1,0 +1,1 @@
+just use "transient" keyword b4 variable or use @transient for variable 

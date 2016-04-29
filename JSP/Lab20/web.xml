@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+<servlet-name>dservlet</servlet-name>
+<servlet-class>com.jlc.servlets.DownloadServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>dservlet</servlet-name>
+<url-pattern>/download.jlc</url-pattern>
+</servlet-mapping>
+
+</web-app>

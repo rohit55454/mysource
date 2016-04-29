@@ -1,0 +1,25 @@
+>	tx.commit() will flush the session cache & data will be inserted into table;
+>	cascade delete : if we delete a record with some primary key from master table then all records from child tables for that primary key will also be deleted.
+>	in Lab3B if we comment print statements of stu.getEmails(), stu.getMarks(), stu.getPhone(), stu.getRefs(); then also courses(array) will be loaded. Arrays are loaded aggressively in comparison of List, Set, Map etc. The loading of collection is also referred as lazy loading.
+>	we are using "hbm2ddl.auto" but update is DML, bcoz hibernate internally uses alter statement also.
+>	if we use create in place of update in "<property name="hbm2ddl.auto">update</property>" then each time a new table will be created with new values and previous data will be deleted.
+>	<bag> means list without index.
+>	"Table per sub class" mapping is best approach.
+>	default constructor will be used by load().
+>	load() will not actually load the data until we are using that data, it will retrieve and store in cache. when we use that data then data will be retrieved from cache.
+>	default constructor, setters and getters are mandatory.
+
+>	load() is implemented as follows :
+		
+		String sql = "select * from students";
+		ps = con.preparestatement(sql);
+		rs = ps.executeQuery();
+		if(rs.next()){
+			Student stu = new Student();
+			stu.setters.......
+		}else{
+			throw new ObjectNotFoundException();
+		}
+
+>	alternative for load() is set().
+-----------------------------------------------------------------------------------------   

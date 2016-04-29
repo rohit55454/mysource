@@ -1,0 +1,31 @@
+1. A frame work is a piece of software this piece of software contains solutions from commonly repeatedly occurred problems occurs multiple projects.
+
+2. Hibernate is a technology are a framework which is used to interact with database server this framework resolves all the problems of JDBC.
+
+3. As part of JDBC we have to write lot of code to hardly checked Exception.
+
+4. As part of Hibernate we no need to provide the code to handle checked Exception.
+
+5. If we use JDBC a programmer is responsible to register the driver and get the connection. Programmer must provide the code to close the connection. As part of Hibernate he is responsible to open the connection and close the connection.
+
+6. As part of Hibernate it’s only starts the transaction and ends the transaction. Hibernate internally uses JTA (Java Transaction API). To start the transaction and end the transaction.
+
+7. Hibernate support internal connection provides Hibernate uses C3B connection pool. DBCP connection pool. If we went to use external connection pool like weblogical we can configure it. If we use JDBC we have to provide the code to handle database specific error code.
+
+8. If we use Hibernate we no need to provide the code to handle database specific errors.
+
+9. Hibernate supports it’s own query language HQL (Hibernate Query language) to resolve the problems of some java application to interact with multiple DB Servers without changing the queries.
+
+10. In case of JDBC we have to provide the code to remove the hard coding. In case of Hibernate we provide the details in Hibernate configuration by reading the details from configuration file (.XML). It will interact with multiple Database Server.
+
+11. If we use JDBC programmer is responsible to write the code to generate the primary key values. As part of Hibernate they have provided pre-defined class to generate primary key values.
+
+12. By using Hibernate we can represent the queries in the form of object or we can use criteria API. As part of Hibernate we can achieve polymorphism between the tables and we can achieve association also.
+
+13. *by using JDBC we can’t transfer result set object from one program to another program (result set can’t be transferable) to resolve this problem we have to provide the code to retrieve data from result set object and store it in array list object if we use Hibernate. Hibernate does all these work.
+
+14. *we have the technology like EJB to interact with DB Server we can’t run EJB Application without EJB container. We can’t use EJB’s in all type of application we can resolve all these problems we can use Hibernate.
+
+In the database server the data will be stored in the side the tables between the tables we establish a relationship because of this reason we call it is relational data.
+
+*Representations relational records in the form of object we call it has ORM:

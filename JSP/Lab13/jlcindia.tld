@@ -1,0 +1,25 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>http://jlcindia.com/ctags</uri>
+
+	<tag>
+		<name>showMessage</name>
+		<tag-class>com.jlc.ctag.ShowMessageTag</tag-class>
+		<body-content>empty</body-content>
+
+		<attribute>
+			<name>sname</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>email</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+	</tag>
+
+</taglib>

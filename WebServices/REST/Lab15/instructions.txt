@@ -1,0 +1,7 @@
+run in browser as :
+
+http://rohit:8989/Lab15/services/hello/gm1/Rohit
+
+OR
+
+http://localhost:8080/Lab15/services/hello/gm1/Rohit

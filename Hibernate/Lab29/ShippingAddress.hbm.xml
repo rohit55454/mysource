@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.hibernate">
+	<class name="ShippingAddress" table="addresses">
+		<id name="addid" column="addid" type="int">
+			<generator class="increment" />
+		</id>
+
+		<property name="street" />
+		<property name="city" />
+		<property name="state" />
+		<one-to-one name="order" class="Order" />
+
+	</class>
+</hibernate-mapping>

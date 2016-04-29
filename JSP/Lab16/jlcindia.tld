@@ -1,0 +1,19 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>http://jlcindia.com/tag</uri>
+
+	<tag>
+		<name>for</name>
+		<tag-class>com.jlc.tag.JlcForTag</tag-class>
+		<body-content>jsp</body-content>
+
+		<attribute>
+			<name>var</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+	</tag>
+
+</taglib>

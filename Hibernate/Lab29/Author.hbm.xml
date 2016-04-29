@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.hibernate">
+	<class name="Author" table="Authors">
+		<id name="aid" column="aid" type="int">
+			<generator class="increment" />
+		</id>
+
+		<property name="aname" />
+		<property name="email" />
+		<property name="phone" />
+		<property name="dob" />
+		<list name="qualis" table="qualis">
+			<key column="aid" />
+			<index />
+			<element column="quali" type="string" />
+		</list>
+
+		<set name="exps" table="exps">
+			<key column="aid" />
+			<element column="exp" type="string" />
+		</set>
+
+		<set name="books" table="Books_authors">
+			<key column="aid" />
+			<many-to-many class="Book" column="bid" />
+		</set>
+
+	</class>
+</hibernate-mapping>

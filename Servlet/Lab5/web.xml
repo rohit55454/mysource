@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<context-param>
+		<param-name>website</param-name>
+		<param-value>www.jlcindia.com</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>helloServ</servlet-name>
+		<servlet-class>com.jlcindia.servlets.HelloServlet</servlet-class>
+		<init-param>
+			<param-name>email</param-name>
+			<param-value>hellosri@jlc.com</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>helloServ</servlet-name>
+		<url-pattern>/hello.jlc</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>haiServ</servlet-name>
+		<servlet-class>com.jlcindia.servlets.HaiServlet</servlet-class>
+
+
+		<init-param>
+			<param-name>email</param-name>
+			<param-value>haisri@jlc.com</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>haiServ</servlet-name>
+		<url-pattern>/hai.jlc</url-pattern>
+	</servlet-mapping>
+
+</web-app>

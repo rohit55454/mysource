@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>test</servlet-name>
+<servlet-class>com.jlcindia.jsp.TestServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>test</servlet-name>
+<url-pattern>/test.jlc</url-pattern>
+</servlet-mapping>
+
+</web-app>

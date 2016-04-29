@@ -1,0 +1,15 @@
+in case of Table per concrete class mapping : 
+> use the following for super class :
+	@Entity
+	@Table
+	@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
+> use the following for all class and all sub-classes : 
+	@Entity
+	@Table(name="some_name")
+
+
+> don't specify	primary key generation for sid;
+> set the sid value to all objects in the client code;
+> Don't save all types of student class objects in one session;
+
+--------------------------------------------------------------

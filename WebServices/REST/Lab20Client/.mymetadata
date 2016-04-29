@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Lab20Client"
+  id="myeclipse.1461877966377"
+  context-root="/Lab20Client"
+  j2ee-spec="5.0"
+  archive="Lab20Client.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

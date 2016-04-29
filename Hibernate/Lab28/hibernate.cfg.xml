@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+
+
+<hibernate-configuration>
+    <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibnatelab28db</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">toor</property>
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="show_sql">true</property>
+    <property name="hbm2ddl.auto">update</property>
+    <!--<property name="format_sql">true</property>  -->
+    
+    <mapping class="com.hibernate.Author"/>
+    <mapping class="com.hibernate.Book"/>
+    <mapping class="com.hibernate.CreditCard"/>
+    <mapping class="com.hibernate.Customer"/>
+    <mapping class="com.hibernate.GoldCustomer"/>
+    <mapping class="com.hibernate.SilverCustomer"/>
+    <mapping class="com.hibernate.Order"/>
+    <mapping class="com.hibernate.OrderItem"/>
+    <mapping class="com.hibernate.ShippingAddress"/>
+    
+    </session-factory>
+</hibernate-configuration>

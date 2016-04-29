@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>jlcServlet</servlet-name>
+<servlet-class>com.jlc.servlets.JLCControllerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>jlcServlet</servlet-name>
+<url-pattern>*.jlc</url-pattern>
+</servlet-mapping>
+
+</web-app>

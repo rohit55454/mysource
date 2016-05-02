@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="sidSearchForm" type="com.jlcindia.struts1.SidSearchForm" />
+		<form-bean name="bidSearchForm" type="com.jlcindia.struts1.BidSearchForm" />
+	</form-beans>
+	
+	<global-forwards>
+		<forward name="SidSearch" path="/sidsearch.jsp" />
+		<forward name="BidSearch" path="/bidsearch.jsp" />
+	</global-forwards>
+	
+	<action-mappings>
+		<action path="/SidSubmit" name="sidSearchForm" type="com.jlcindia.struts1.SidSearchAction" input="/sidsearch.jsp" scope="request" validate="true">
+		<exception key="sid.notfound" type="com.jlcindia.struts1.StudentNotFoundException" path="/sidsearch.jsp" />
+		<forward name="SidResults" path="/sidresults.jsp"></forward>
+		</action>
+		
+		<action path="/BidSubmit" name="bidSearchForm" type="com.jlcindia.struts1.BidSearchAction" input="/bidsearch.jsp" >
+		<forward name="BidResults" path="/bidresults.jsp" />
+		</action>
+	</action-mappings>
+  
+  <message-resources parameter="com.jlcindia.struts1.messages"></message-resources>
+  
+  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property = "pathnames" value="/WEB-INF/validator-rules.xml,/WEB-INF/myform-validations.xml" />
+  </plug-in>
+	
+</struts-config>
+

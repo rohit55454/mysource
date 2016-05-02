@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+<form-beans>
+	<form-bean name="downloadForm" type="org.apache.struts.validator.DynaValidatorForm">
+		<form-property name="filename" type="java.lang.String"></form-property>
+	</form-bean>
+</form-beans>
+
+<action-mappings>
+	<action name="downloadForm" input="/index.jsp" path="/download" type="com.jlcindia.struts1.MyDownloadAction" />
+</action-mappings>
+
+<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property = "pathnames" value="/WEB-INF/validator-rules.xml,/WEB-INF/myform-validations.xml" />
+</plug-in>
+
+</struts-config>
+

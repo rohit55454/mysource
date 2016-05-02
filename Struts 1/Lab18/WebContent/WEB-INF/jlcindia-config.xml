@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+<form-beans>
+<form-bean name="tmpForm"		type="org.apache.struts.validator.DynaValidatorForm" />
+<form-bean name="contactForm" 	type="org.apache.struts.validator.DynaValidatorForm">
+	<form-property name="fname" type="java.lang.String" />
+	<form-property name="lname" type="java.lang.String" />
+	<form-property name="email" type="java.lang.String" />
+	<form-property name="phone" type="java.lang.String" />
+</form-bean>
+<form-bean name="searchContactForm" type="org.apache.struts.validator.DynaValidatorForm">
+	<form-property name="email" type="java.lang.String" />
+</form-bean>
+</form-beans>
+
+<global-forwards>
+<forward name="AddContact"				path="/addContact.jsp" />
+<forward name="AddContactSuccess"		path="/addContactSuccess.jsp" />
+<forward name="UpdateContactSuccess" 	path="/updateContactSuccess.jsp" />
+<forward name="SearchContact" 			path="/searchContact.jsp" />
+<forward name="SearchResults" 			path="/searchResults.jsp" />
+<forward name="Home"		 			path="/home.jsp" />
+</global-forwards>
+
+<action-mappings>
+<action path="/AddContactSubmit"	name="contactForm" 		 type="com.jlcindia.struts1.ContactAction" 		parameter="method"	input="/addContact.jsp"/>
+<action path="/UpdateContactSubmit"	name="contactForm"		 type="com.jlcindia.struts1.ContactAction" 	parameter="method"	input="/searchResults.jsp"/>
+<action path="/SearchContactSubmit" name="searchContactForm" type="com.jlcindia.struts1.ContactAction" 	parameter="method"	input="/searchContact.jsp"/>
+<action path="/EditContactSubmit"	name="tmpForm" 			 type="com.jlcindia.struts1.ContactAction" 		parameter="method"	input="/searchResults.jsp"/>
+</action-mappings>
+
+<message-resources parameter="com.jlcindia.struts1.messages" />
+
+<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property = "pathnames" value="/WEB-INF/validator-rules.xml,/WEB-INF/myform-validations.xml" />
+</plug-in>
+
+
+</struts-config>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="sidSearchForm" type="com.jlcindia.struts1.SidSearchForm" />
+	</form-beans>
+	
+	<action-mappings>
+		<action path="/SidSubmit" name="sidSearchForm" type="com.jlcindia.struts1.SidSearchAction"
+				input="/sidsearch.jsp" scope="session" validate="true">
+		<exception key="sid.notfound" type="com.jlcindia.struts1.StudentNotFoundException" 
+					path="/sidsearch.jsp" />
+		<forward name="SidResults" path="/sidresults.jsp"></forward>
+		
+		</action>
+	</action-mappings>
+  <message-resources parameter="com.jlcindia.struts1.messages"></message-resources>
+  
+</struts-config>
+

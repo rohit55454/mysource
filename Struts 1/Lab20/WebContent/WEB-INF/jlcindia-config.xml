@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+<form-beans>
+<form-bean name="localeForm" type="org.apache.struts.action.DynaActionForm">
+	<form-property name="language" type="java.lang.String" initial="en"/>
+	<form-property name="country" type="java.lang.String" initial="IN"/>
+	<form-property name="page" type="java.lang.String" initial="/search.jsp"/>
+</form-bean>
+
+<form-bean name="tbean" type="org.apache.struts.action.DynaActionForm" />
+<form-bean name="sbean" type="org.apache.struts.action.DynaActionForm" >
+	<form-property name="hello" type="java.lang.String" />
+</form-bean>
+</form-beans>
+
+<global-forwards>
+<forward name="english"				path="/changeLocale.jlc?language=en" />
+<forward name="hindi"				path="/changeLocale.jlc?language=hi" />
+</global-forwards>
+
+<action-mappings>
+<action path="/changeLocale"	name="localeForm" type="org.apache.struts.actions.LocaleAction" 	>
+	<forward name="success" path="/search.jsp" />
+</action>
+
+<action path="/Search"	name="sbean" type="com.jlcindia.struts1.SearchAction" input="/search.jsp">
+	<forward name="results" path="/results.jsp" />
+</action>
+
+</action-mappings>
+
+<message-resources parameter="com.jlcindia.struts1.messages" />
+
+</struts-config>
+

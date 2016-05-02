@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+<form-beans>
+	<form-bean name="uploadForm" type="org.apache.struts.action.DynaActionForm">
+		<form-property name="email" type="java.lang.String" />
+		<form-property name="myfile" type="org.apache.struts.upload.FormFile" />
+	</form-bean>
+</form-beans>
+
+<global-forwards>
+	<forward name="success" path="/success.jsp" />
+</global-forwards>
+
+<action-mappings>
+	<action path="/Upload" name="uploadForm" type="com.jlcindia.struts1.UploadAction" input="/index.jsp" />
+</action-mappings>
+
+</struts-config>
+

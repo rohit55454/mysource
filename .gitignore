@@ -61,3 +61,25 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Eclipse or other IDE specific files
+*.idea
+*.myeclipse
+*.mymetadata
+*.metadata
+*.classpath
+*.myeclipse
+*.mymetadata
+*.project
+*.settings
+*.mf
+
+# ignoring a folder
+Servers/
+tmp/
+target/
+
+#
+*.recommenders/
+*.lst
+*.ser

@@ -1,0 +1,17 @@
+(1)	copy "mysql.jar" AND "mysql-connector-java-5.1.5-bin.jar" and paste to jboss-4.2.2.GA\server\default\lib.
+
+(2)	copy mysqldb-ds.xml and paste to jboss-4.2.2.GA\server\default\deploy.
+
+(3)	make simple java project (not web project) and place the java files inside com.jlcindia.jboss.
+
+(4)	add the 4 jars to project build path 
+			(i)	jbossall-client.jar
+			(ii)	jboss-client.jar
+			(iii)	jboss-common-client.jar
+			(iv)	jnpserver.jar
+			
+(5)	and ENJOY !!!!!!!!!!!!!!
+
+	
+	
+	

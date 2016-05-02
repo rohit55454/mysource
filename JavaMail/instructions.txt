@@ -1,0 +1,11 @@
+Add following jars :
+====================
+
+activation.jar
+dsn.jar
+imap.jar
+instructions.txt
+mail.jar
+mailapi.jar
+pop3.jar
+smtp.jar

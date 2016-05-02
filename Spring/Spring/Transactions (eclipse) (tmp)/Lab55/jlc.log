@@ -1,0 +1,637 @@
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: startup date [Mon Feb 22 21:55:46 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [spring.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 7 bean definitions from location pattern [spring.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,adao]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+INFO - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@e354b6] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@19b3a92] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,adao]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'dataSource' 
+DEBUG - Creating instance of bean 'dataSource' 
+DEBUG - Eagerly caching bean 'dataSource' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'connection' of type [java.sql.Connection] 
+DEBUG - Found bean property 'connectionProperties' of type [java.util.Properties] 
+DEBUG - Found bean property 'driverClassName' of type [java.lang.String] 
+DEBUG - Found bean property 'logWriter' of type [java.io.PrintWriter] 
+DEBUG - Found bean property 'loginTimeout' of type [int] 
+DEBUG - Found bean property 'password' of type [java.lang.String] 
+DEBUG - Found bean property 'url' of type [java.lang.String] 
+DEBUG - Found bean property 'username' of type [java.lang.String] 
+INFO - Loaded JDBC driver: com.mysql.jdbc.Driver 
+DEBUG - Finished creating instance of bean 'dataSource' 
+DEBUG - Creating shared instance of singleton bean 'jdbcTemp' 
+DEBUG - Creating instance of bean 'jdbcTemp' 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Ignoring constructor [public org.springframework.jdbc.core.JdbcTemplate(javax.sql.DataSource,boolean)] of bean 'jdbcTemp': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemp' defined in class path resource [spring.xml]: Unsatisfied dependency expressed through constructor argument with index 1 of type [boolean]: : No matching bean of type [boolean] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [boolean] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {} 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Autowiring by type from bean name 'jdbcTemp' via constructor to bean named 'dataSource' 
+DEBUG - Eagerly caching bean 'jdbcTemp' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.core.JdbcTemplate] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.core.JdbcTemplate] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'dataSource' of type [javax.sql.DataSource] 
+DEBUG - Found bean property 'databaseProductName' of type [java.lang.String] 
+DEBUG - Found bean property 'exceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator] 
+DEBUG - Found bean property 'fetchSize' of type [int] 
+DEBUG - Found bean property 'ignoreWarnings' of type [boolean] 
+DEBUG - Found bean property 'lazyInit' of type [boolean] 
+DEBUG - Found bean property 'maxRows' of type [int] 
+DEBUG - Found bean property 'nativeJdbcExtractor' of type [org.springframework.jdbc.support.nativejdbc.NativeJdbcExtractor] 
+DEBUG - Found bean property 'queryTimeout' of type [int] 
+DEBUG - Found bean property 'resultsMapCaseInsensitive' of type [boolean] 
+DEBUG - Found bean property 'skipResultsProcessing' of type [boolean] 
+DEBUG - Found bean property 'skipUndeclaredResults' of type [boolean] 
+DEBUG - Invoking afterPropertiesSet() on bean with name 'jdbcTemp' 
+DEBUG - Finished creating instance of bean 'jdbcTemp' 
+DEBUG - Creating shared instance of singleton bean 'adao' 
+DEBUG - Creating instance of bean 'adao' 
+DEBUG - Found injected element on class [com.spring.transaction.jdbc.JdbcAccountDAO]: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.spring.transaction.jdbc.JdbcAccountDAO.jtemp 
+DEBUG - Found injected element on class [com.spring.transaction.jdbc.JdbcAccountDAO]: AutowiredFieldElement for org.springframework.jdbc.datasource.DataSourceTransactionManager com.spring.transaction.jdbc.JdbcAccountDAO.txMgr 
+DEBUG - Eagerly caching bean 'adao' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.spring.transaction.jdbc.JdbcAccountDAO] 
+DEBUG - Caching PropertyDescriptors for class [com.spring.transaction.jdbc.JdbcAccountDAO] 
+DEBUG - Found bean property 'balance' 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Processing injected method of bean 'adao': AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.spring.transaction.jdbc.JdbcAccountDAO.jtemp 
+DEBUG - Returning cached instance of singleton bean 'jdbcTemp' 
+DEBUG - Autowiring by type from bean name 'adao' to bean named 'jdbcTemp' 
+DEBUG - Processing injected method of bean 'adao': AutowiredFieldElement for org.springframework.jdbc.datasource.DataSourceTransactionManager com.spring.transaction.jdbc.JdbcAccountDAO.txMgr 
+INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,adao]; root of factory hierarchy 
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: startup date [Mon Feb 22 22:00:50 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [spring.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 8 bean definitions from location pattern [spring.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,txMgr,adao]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+INFO - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1106021] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@436cec] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,txMgr,adao]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'dataSource' 
+DEBUG - Creating instance of bean 'dataSource' 
+DEBUG - Eagerly caching bean 'dataSource' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'connection' of type [java.sql.Connection] 
+DEBUG - Found bean property 'connectionProperties' of type [java.util.Properties] 
+DEBUG - Found bean property 'driverClassName' of type [java.lang.String] 
+DEBUG - Found bean property 'logWriter' of type [java.io.PrintWriter] 
+DEBUG - Found bean property 'loginTimeout' of type [int] 
+DEBUG - Found bean property 'password' of type [java.lang.String] 
+DEBUG - Found bean property 'url' of type [java.lang.String] 
+DEBUG - Found bean property 'username' of type [java.lang.String] 
+INFO - Loaded JDBC driver: com.mysql.jdbc.Driver 
+DEBUG - Finished creating instance of bean 'dataSource' 
+DEBUG - Creating shared instance of singleton bean 'jdbcTemp' 
+DEBUG - Creating instance of bean 'jdbcTemp' 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Ignoring constructor [public org.springframework.jdbc.core.JdbcTemplate(javax.sql.DataSource,boolean)] of bean 'jdbcTemp': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemp' defined in class path resource [spring.xml]: Unsatisfied dependency expressed through constructor argument with index 1 of type [boolean]: : No matching bean of type [boolean] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [boolean] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {} 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Autowiring by type from bean name 'jdbcTemp' via constructor to bean named 'dataSource' 
+DEBUG - Eagerly caching bean 'jdbcTemp' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.core.JdbcTemplate] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.core.JdbcTemplate] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'dataSource' of type [javax.sql.DataSource] 
+DEBUG - Found bean property 'databaseProductName' of type [java.lang.String] 
+DEBUG - Found bean property 'exceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator] 
+DEBUG - Found bean property 'fetchSize' of type [int] 
+DEBUG - Found bean property 'ignoreWarnings' of type [boolean] 
+DEBUG - Found bean property 'lazyInit' of type [boolean] 
+DEBUG - Found bean property 'maxRows' of type [int] 
+DEBUG - Found bean property 'nativeJdbcExtractor' of type [org.springframework.jdbc.support.nativejdbc.NativeJdbcExtractor] 
+DEBUG - Found bean property 'queryTimeout' of type [int] 
+DEBUG - Found bean property 'resultsMapCaseInsensitive' of type [boolean] 
+DEBUG - Found bean property 'skipResultsProcessing' of type [boolean] 
+DEBUG - Found bean property 'skipUndeclaredResults' of type [boolean] 
+DEBUG - Invoking afterPropertiesSet() on bean with name 'jdbcTemp' 
+DEBUG - Finished creating instance of bean 'jdbcTemp' 
+DEBUG - Creating shared instance of singleton bean 'txMgr' 
+DEBUG - Creating instance of bean 'txMgr' 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Autowiring by type from bean name 'txMgr' via constructor to bean named 'dataSource' 
+DEBUG - Eagerly caching bean 'txMgr' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.datasource.DataSourceTransactionManager] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DataSourceTransactionManager] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'dataSource' of type [javax.sql.DataSource] 
+DEBUG - Found bean property 'defaultTimeout' of type [int] 
+DEBUG - Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean] 
+DEBUG - Found bean property 'globalRollbackOnParticipationFailure' of type [boolean] 
+DEBUG - Found bean property 'nestedTransactionAllowed' of type [boolean] 
+DEBUG - Found bean property 'resourceFactory' of type [java.lang.Object] 
+DEBUG - Found bean property 'rollbackOnCommitFailure' of type [boolean] 
+DEBUG - Found bean property 'transactionSynchronization' of type [int] 
+DEBUG - Found bean property 'transactionSynchronizationName' of type [java.lang.String] 
+DEBUG - Found bean property 'validateExistingTransaction' of type [boolean] 
+DEBUG - Invoking afterPropertiesSet() on bean with name 'txMgr' 
+DEBUG - Finished creating instance of bean 'txMgr' 
+DEBUG - Creating shared instance of singleton bean 'adao' 
+DEBUG - Creating instance of bean 'adao' 
+DEBUG - Found injected element on class [com.spring.transaction.jdbc.JdbcAccountDAO]: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.spring.transaction.jdbc.JdbcAccountDAO.jtemp 
+DEBUG - Found injected element on class [com.spring.transaction.jdbc.JdbcAccountDAO]: AutowiredFieldElement for org.springframework.jdbc.datasource.DataSourceTransactionManager com.spring.transaction.jdbc.JdbcAccountDAO.txMgr 
+DEBUG - Eagerly caching bean 'adao' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.spring.transaction.jdbc.JdbcAccountDAO] 
+DEBUG - Caching PropertyDescriptors for class [com.spring.transaction.jdbc.JdbcAccountDAO] 
+DEBUG - Found bean property 'balance' 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Processing injected method of bean 'adao': AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.spring.transaction.jdbc.JdbcAccountDAO.jtemp 
+DEBUG - Returning cached instance of singleton bean 'jdbcTemp' 
+DEBUG - Autowiring by type from bean name 'adao' to bean named 'jdbcTemp' 
+DEBUG - Processing injected method of bean 'adao': AutowiredFieldElement for org.springframework.jdbc.datasource.DataSourceTransactionManager com.spring.transaction.jdbc.JdbcAccountDAO.txMgr 
+DEBUG - Returning cached instance of singleton bean 'txMgr' 
+DEBUG - Autowiring by type from bean name 'adao' to bean named 'txMgr' 
+DEBUG - Finished creating instance of bean 'adao' 
+DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2380d1] 
+DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor' 
+DEBUG - Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: startup date [Mon Feb 22 22:00:50 IST 2016]; root of context hierarchy] 
+DEBUG - Returning cached instance of singleton bean 'adao' 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Acquired Connection [com.mysql.jdbc.Connection@17ca8c8] for JDBC transaction 
+DEBUG - Switching JDBC Connection [com.mysql.jdbc.Connection@17ca8c8] to manual commit 
+DEBUG - Bound value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] to thread [main] 
+DEBUG - Initializing transaction synchronization 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno = ?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [52000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Triggering beforeCommit synchronization 
+DEBUG - Triggering beforeCompletion synchronization 
+DEBUG - Initiating transaction commit 
+DEBUG - Committing JDBC transaction on Connection [com.mysql.jdbc.Connection@17ca8c8] 
+DEBUG - Triggering afterCommit synchronization 
+DEBUG - Triggering afterCompletion synchronization 
+DEBUG - Clearing transaction synchronization 
+DEBUG - Removed value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] from thread [main] 
+DEBUG - Releasing JDBC Connection [com.mysql.jdbc.Connection@17ca8c8] after transaction 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Acquired Connection [com.mysql.jdbc.Connection@dddeac] for JDBC transaction 
+DEBUG - Switching JDBC Connection [com.mysql.jdbc.Connection@dddeac] to manual commit 
+DEBUG - Bound value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] to thread [main] 
+DEBUG - Initializing transaction synchronization 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [35000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Triggering beforeCommit synchronization 
+DEBUG - Triggering beforeCompletion synchronization 
+DEBUG - Initiating transaction commit 
+DEBUG - Committing JDBC transaction on Connection [com.mysql.jdbc.Connection@dddeac] 
+DEBUG - Triggering afterCommit synchronization 
+DEBUG - Triggering afterCompletion synchronization 
+DEBUG - Clearing transaction synchronization 
+DEBUG - Removed value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] from thread [main] 
+DEBUG - Releasing JDBC Connection [com.mysql.jdbc.Connection@dddeac] after transaction 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Acquired Connection [com.mysql.jdbc.Connection@517b46] for JDBC transaction 
+DEBUG - Switching JDBC Connection [com.mysql.jdbc.Connection@517b46] to manual commit 
+DEBUG - Bound value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] to thread [main] 
+DEBUG - Initializing transaction synchronization 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [82000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [15000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Triggering beforeCommit synchronization 
+DEBUG - Triggering beforeCompletion synchronization 
+DEBUG - Initiating transaction commit 
+DEBUG - Committing JDBC transaction on Connection [com.mysql.jdbc.Connection@517b46] 
+DEBUG - Triggering afterCommit synchronization 
+DEBUG - Triggering afterCompletion synchronization 
+DEBUG - Clearing transaction synchronization 
+DEBUG - Removed value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] from thread [main] 
+DEBUG - Releasing JDBC Connection [com.mysql.jdbc.Connection@517b46] after transaction 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: startup date [Mon Feb 22 22:03:31 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [spring.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 8 bean definitions from location pattern [spring.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,txMgr,adao]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+INFO - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1106021] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@436cec] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d3b52e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,jdbcTemp,txMgr,adao]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'dataSource' 
+DEBUG - Creating instance of bean 'dataSource' 
+DEBUG - Eagerly caching bean 'dataSource' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'connection' of type [java.sql.Connection] 
+DEBUG - Found bean property 'connectionProperties' of type [java.util.Properties] 
+DEBUG - Found bean property 'driverClassName' of type [java.lang.String] 
+DEBUG - Found bean property 'logWriter' of type [java.io.PrintWriter] 
+DEBUG - Found bean property 'loginTimeout' of type [int] 
+DEBUG - Found bean property 'password' of type [java.lang.String] 
+DEBUG - Found bean property 'url' of type [java.lang.String] 
+DEBUG - Found bean property 'username' of type [java.lang.String] 
+INFO - Loaded JDBC driver: com.mysql.jdbc.Driver 
+DEBUG - Finished creating instance of bean 'dataSource' 
+DEBUG - Creating shared instance of singleton bean 'jdbcTemp' 
+DEBUG - Creating instance of bean 'jdbcTemp' 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Ignoring constructor [public org.springframework.jdbc.core.JdbcTemplate(javax.sql.DataSource,boolean)] of bean 'jdbcTemp': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemp' defined in class path resource [spring.xml]: Unsatisfied dependency expressed through constructor argument with index 1 of type [boolean]: : No matching bean of type [boolean] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [boolean] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {} 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Autowiring by type from bean name 'jdbcTemp' via constructor to bean named 'dataSource' 
+DEBUG - Eagerly caching bean 'jdbcTemp' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.core.JdbcTemplate] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.core.JdbcTemplate] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'dataSource' of type [javax.sql.DataSource] 
+DEBUG - Found bean property 'databaseProductName' of type [java.lang.String] 
+DEBUG - Found bean property 'exceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator] 
+DEBUG - Found bean property 'fetchSize' of type [int] 
+DEBUG - Found bean property 'ignoreWarnings' of type [boolean] 
+DEBUG - Found bean property 'lazyInit' of type [boolean] 
+DEBUG - Found bean property 'maxRows' of type [int] 
+DEBUG - Found bean property 'nativeJdbcExtractor' of type [org.springframework.jdbc.support.nativejdbc.NativeJdbcExtractor] 
+DEBUG - Found bean property 'queryTimeout' of type [int] 
+DEBUG - Found bean property 'resultsMapCaseInsensitive' of type [boolean] 
+DEBUG - Found bean property 'skipResultsProcessing' of type [boolean] 
+DEBUG - Found bean property 'skipUndeclaredResults' of type [boolean] 
+DEBUG - Invoking afterPropertiesSet() on bean with name 'jdbcTemp' 
+DEBUG - Finished creating instance of bean 'jdbcTemp' 
+DEBUG - Creating shared instance of singleton bean 'txMgr' 
+DEBUG - Creating instance of bean 'txMgr' 
+DEBUG - Returning cached instance of singleton bean 'dataSource' 
+DEBUG - Autowiring by type from bean name 'txMgr' via constructor to bean named 'dataSource' 
+DEBUG - Eagerly caching bean 'txMgr' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.jdbc.datasource.DataSourceTransactionManager] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DataSourceTransactionManager] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'dataSource' of type [javax.sql.DataSource] 
+DEBUG - Found bean property 'defaultTimeout' of type [int] 
+DEBUG - Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean] 
+DEBUG - Found bean property 'globalRollbackOnParticipationFailure' of type [boolean] 
+DEBUG - Found bean property 'nestedTransactionAllowed' of type [boolean] 
+DEBUG - Found bean property 'resourceFactory' of type [java.lang.Object] 
+DEBUG - Found bean property 'rollbackOnCommitFailure' of type [boolean] 
+DEBUG - Found bean property 'transactionSynchronization' of type [int] 
+DEBUG - Found bean property 'transactionSynchronizationName' of type [java.lang.String] 
+DEBUG - Found bean property 'validateExistingTransaction' of type [boolean] 
+DEBUG - Invoking afterPropertiesSet() on bean with name 'txMgr' 
+DEBUG - Finished creating instance of bean 'txMgr' 
+DEBUG - Creating shared instance of singleton bean 'adao' 
+DEBUG - Creating instance of bean 'adao' 
+DEBUG - Found injected element on class [com.spring.transaction.jdbc.JdbcAccountDAO]: AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.spring.transaction.jdbc.JdbcAccountDAO.jtemp 
+DEBUG - Found injected element on class [com.spring.transaction.jdbc.JdbcAccountDAO]: AutowiredFieldElement for org.springframework.jdbc.datasource.DataSourceTransactionManager com.spring.transaction.jdbc.JdbcAccountDAO.txMgr 
+DEBUG - Eagerly caching bean 'adao' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.spring.transaction.jdbc.JdbcAccountDAO] 
+DEBUG - Caching PropertyDescriptors for class [com.spring.transaction.jdbc.JdbcAccountDAO] 
+DEBUG - Found bean property 'balance' 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Processing injected method of bean 'adao': AutowiredFieldElement for org.springframework.jdbc.core.JdbcTemplate com.spring.transaction.jdbc.JdbcAccountDAO.jtemp 
+DEBUG - Returning cached instance of singleton bean 'jdbcTemp' 
+DEBUG - Autowiring by type from bean name 'adao' to bean named 'jdbcTemp' 
+DEBUG - Processing injected method of bean 'adao': AutowiredFieldElement for org.springframework.jdbc.datasource.DataSourceTransactionManager com.spring.transaction.jdbc.JdbcAccountDAO.txMgr 
+DEBUG - Returning cached instance of singleton bean 'txMgr' 
+DEBUG - Autowiring by type from bean name 'adao' to bean named 'txMgr' 
+DEBUG - Finished creating instance of bean 'adao' 
+DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2380d1] 
+DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor' 
+DEBUG - Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@3aef16: startup date [Mon Feb 22 22:03:31 IST 2016]; root of context hierarchy] 
+DEBUG - Returning cached instance of singleton bean 'adao' 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Acquired Connection [com.mysql.jdbc.Connection@17ca8c8] for JDBC transaction 
+DEBUG - Switching JDBC Connection [com.mysql.jdbc.Connection@17ca8c8] to manual commit 
+DEBUG - Bound value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] to thread [main] 
+DEBUG - Initializing transaction synchronization 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno = ?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [84000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Triggering beforeCommit synchronization 
+DEBUG - Triggering beforeCompletion synchronization 
+DEBUG - Initiating transaction commit 
+DEBUG - Committing JDBC transaction on Connection [com.mysql.jdbc.Connection@17ca8c8] 
+DEBUG - Triggering afterCommit synchronization 
+DEBUG - Triggering afterCompletion synchronization 
+DEBUG - Clearing transaction synchronization 
+DEBUG - Removed value [org.springframework.jdbc.datasource.ConnectionHolder@194bf0] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] from thread [main] 
+DEBUG - Releasing JDBC Connection [com.mysql.jdbc.Connection@17ca8c8] after transaction 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Acquired Connection [com.mysql.jdbc.Connection@dddeac] for JDBC transaction 
+DEBUG - Switching JDBC Connection [com.mysql.jdbc.Connection@dddeac] to manual commit 
+DEBUG - Bound value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] to thread [main] 
+DEBUG - Initializing transaction synchronization 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [30000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Triggering beforeCommit synchronization 
+DEBUG - Triggering beforeCompletion synchronization 
+DEBUG - Initiating transaction commit 
+DEBUG - Committing JDBC transaction on Connection [com.mysql.jdbc.Connection@dddeac] 
+DEBUG - Triggering afterCommit synchronization 
+DEBUG - Triggering afterCompletion synchronization 
+DEBUG - Clearing transaction synchronization 
+DEBUG - Removed value [org.springframework.jdbc.datasource.ConnectionHolder@46128d] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] from thread [main] 
+DEBUG - Releasing JDBC Connection [com.mysql.jdbc.Connection@dddeac] after transaction 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [102], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Acquired Connection [com.mysql.jdbc.Connection@517b46] for JDBC transaction 
+DEBUG - Switching JDBC Connection [com.mysql.jdbc.Connection@517b46] to manual commit 
+DEBUG - Bound value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] to thread [main] 
+DEBUG - Initializing transaction synchronization 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL update 
+DEBUG - Executing prepared SQL statement [update accounts set bal=? where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [114000.0], value class [java.lang.Double], SQL type unknown 
+DEBUG - Setting SQL statement parameter value: column index 2, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - SQL update affected 1 rows 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] bound to thread [main] 
+DEBUG - Triggering beforeCompletion synchronization 
+DEBUG - Initiating transaction rollback 
+DEBUG - Rolling back JDBC transaction on Connection [com.mysql.jdbc.Connection@517b46] 
+DEBUG - Triggering afterCompletion synchronization 
+DEBUG - Clearing transaction synchronization 
+DEBUG - Removed value [org.springframework.jdbc.datasource.ConnectionHolder@17430d3] for key [org.springframework.jdbc.datasource.DriverManagerDataSource@17c6631] from thread [main] 
+DEBUG - Releasing JDBC Connection [com.mysql.jdbc.Connection@517b46] after transaction 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [103], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 
+DEBUG - Executing prepared SQL query 
+DEBUG - Executing prepared SQL statement [select bal from accounts where accno=?] 
+DEBUG - Fetching JDBC Connection from DataSource 
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/springdb] 
+DEBUG - Setting SQL statement parameter value: column index 1, parameter value [101], value class [java.lang.Integer], SQL type unknown 
+DEBUG - Returning JDBC Connection to DataSource 

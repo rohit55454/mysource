@@ -1,0 +1,107 @@
+>	mvn -version
+>	mvn archetype:generate
+>	mvn complie
+>	mvn -o compile		(Offline Compile :	will save you a lot of time)
+
+##################################################################################################################
+1. Compile
+ mvn compile
+2. Compile (offline)
+ mvn -o compile
+will save you a lot of time
+3. Install the generated output to the respective repository
+mvn install
+4. Clean Target Directory
+mvn clean
+5. Package as jar or war
+mvn package
+6. Generate Eclipse project descriptors
+mvn eclipse:eclipse
+7. Run unit tests
+mvn test
+8. Run unit tests and print the output to console rather than to file
+mvn -Dsurefire.useFile=false test
+9. Run individual test
+mvn test –Dtest=org.shankh.mavenTest
+10. Package without running tests
+mvn package -Dmaven.test.skip
+11. Install without Running Tests
+mvn install -Dmaven.test.skip
+12. To download source code into your maven repo:
+mvn eclipse:clean eclipse:eclipse –DdownloadSources=true
+13. Create a new project
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app
+Comment : Instead of ‘generate’ i wrote ‘create’ initially, but as simonz correctly pointed out, mvn archetype:create is now deprecated. so use mvn archetype:generate instead.
+14. Create a Web Application
+mvn archetype:generate
+        -DarchetypeGroupId=org.apache.maven.archetypes
+        -DarchetypeArtifactId=maven-archetype-webapp
+        -DgroupId=com.mycompany
+        -DartifactId=my-app
+15. Start embedded Jetty
+mvn jetty:run
+16. Deploys a WAR to embedded instance of Jetty and starts it
+mvn jetty:run-war
+17. Specify Java Build version
+<build>
+<plugins>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <configuration>
+      <source>1.5</source>
+      <target>1.5</target>
+    </configuration>
+  </plugin>
+ </plugins>
+</build>
+18. Generate site for a single project
+mvn site
+19. Generate Javadoc
+mvn javadoc:javadoc
+20. Set Maven_opts System environment variable (will save you from out of memory error)
+MAVEN_OPTS=”-Xmx512m -Xms256m -XX:MaxPermSize=128m”
+21. Setting M2 variable in eclipse (informing of repository location
+Goto Window -> Preferences -> Java -> build path -> classpath variable -> New
+Name: M2_REPO
+Path:
+C:\Users\my_user_name\.m2\repository  (In vista)
+C:\Documents And Settings\my_user_name\.m2\repository  (In XP)
+~/.m2/repository (in Linus/ unix flavours)
+22. Links
+1. Settings.xml sample: http://maven.apache.org/maven-settings/settings.html
+2. Maven Download: http://maven.apache.org/download.html
+3. M2 eclipse download: http://m2eclipse.codehaus.org
+4. M2 eclipse update site: http://m2eclipse.sonatype.org/update
+5. Cargo: http://cargo.codehaus.org/
+6. Jetty: http://jetty.mortbay.com/jetty/
+
+###################################################################################################################
+
+
+
+
+>	Maven Quickstart Archetype:
+	===========================
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=5-SNAPSHOT
+
+>	Simple Web App:
+	===============
+
+mvn archetype:generate -DgroupId=com.mkyong -DartifactId=CounterWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+
+>	J2EE Web App:
+	===============
+mvn archetype:create -DgroupId=com.mkyong -DartifactId=j2eeWebApp -DarchetypeArtifactId=maven-archetype-j2ee-simple
+
+
+
+>	Run Maven App:
+==================
+
+	mvn exec:java -Dexec.mainClass="com.demo.App"
+	mvn exec:java -Dexec.mainClass="com.demo.App" -Dexec.args="arg0 arg1 arg2"
+	java -cp target/App-1.0-SNAPSHOT.jar com.demo.App
+	
+>	

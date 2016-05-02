@@ -1,0 +1,436 @@
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1eb0c6: startup date [Thu Feb 18 00:12:24 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [jlcindia.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 10 bean definitions from location pattern [jlcindia.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@1eb0c6: org.springframework.beans.factory.support.DefaultListableBeanFactory@1f38d7d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry] 
+DEBUG - Found bean property 'applyCommonInterceptorsFirst' of type [boolean] 
+DEBUG - Found bean property 'aspectJAdvisorFactory' of type [org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory] 
+DEBUG - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;] 
+DEBUG - Found bean property 'exposeProxy' of type [boolean] 
+DEBUG - Found bean property 'frozen' of type [boolean] 
+DEBUG - Found bean property 'includePatterns' of type [java.util.List] 
+DEBUG - Found bean property 'interceptorNames' of type [[Ljava.lang.String;] 
+DEBUG - Found bean property 'opaque' of type [boolean] 
+DEBUG - Found bean property 'optimize' of type [boolean] 
+DEBUG - Found bean property 'order' of type [int] 
+DEBUG - Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'proxyTargetClass' of type [boolean] 
+DEBUG - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3f6ca4] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6bfafb] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f38d7d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating shared instance of singleton bean 'log' 
+DEBUG - Creating instance of bean 'log' 
+DEBUG - Eagerly caching bean 'log' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.LogService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.LogService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'log' 
+DEBUG - Creating shared instance of singleton bean 'security' 
+DEBUG - Creating instance of bean 'security' 
+DEBUG - Eagerly caching bean 'security' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'security' 
+DEBUG - Creating shared instance of singleton bean 'tx' 
+DEBUG - Creating instance of bean 'tx' 
+DEBUG - Eagerly caching bean 'tx' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.TxService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.TxService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'tx' 
+DEBUG - Creating shared instance of singleton bean 'as' 
+DEBUG - Creating instance of bean 'as' 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logBefore() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logReturning() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logThrowing(java.lang.Exception) 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logOK() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.SecurityService.verifyUser() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.rollBack() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.begin() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.commit() 
+DEBUG - Eagerly caching bean 'as' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.AccountService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.AccountService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f38d7d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cd43ce: startup date [Thu Feb 18 00:28:03 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [jlcindia.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 10 bean definitions from location pattern [jlcindia.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@cd43ce: org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry] 
+DEBUG - Found bean property 'applyCommonInterceptorsFirst' of type [boolean] 
+DEBUG - Found bean property 'aspectJAdvisorFactory' of type [org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory] 
+DEBUG - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;] 
+DEBUG - Found bean property 'exposeProxy' of type [boolean] 
+DEBUG - Found bean property 'frozen' of type [boolean] 
+DEBUG - Found bean property 'includePatterns' of type [java.util.List] 
+DEBUG - Found bean property 'interceptorNames' of type [[Ljava.lang.String;] 
+DEBUG - Found bean property 'opaque' of type [boolean] 
+DEBUG - Found bean property 'optimize' of type [boolean] 
+DEBUG - Found bean property 'order' of type [int] 
+DEBUG - Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'proxyTargetClass' of type [boolean] 
+DEBUG - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@6e2862] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1757322] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating shared instance of singleton bean 'log' 
+DEBUG - Creating instance of bean 'log' 
+DEBUG - Eagerly caching bean 'log' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.LogService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.LogService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'log' 
+DEBUG - Creating shared instance of singleton bean 'security' 
+DEBUG - Creating instance of bean 'security' 
+DEBUG - Eagerly caching bean 'security' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'security' 
+DEBUG - Creating shared instance of singleton bean 'tx' 
+DEBUG - Creating instance of bean 'tx' 
+DEBUG - Eagerly caching bean 'tx' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.TxService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.TxService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'tx' 
+DEBUG - Creating shared instance of singleton bean 'as' 
+DEBUG - Creating instance of bean 'as' 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logBefore() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logReturning() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logOK() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logThrowing(java.lang.Exception) 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.SecurityService.verifyUser() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.rollBack() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.begin() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.commit() 
+DEBUG - Eagerly caching bean 'as' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.AccountService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.AccountService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cd43ce: startup date [Thu Feb 18 00:31:50 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [jlcindia.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 10 bean definitions from location pattern [jlcindia.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@cd43ce: org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry] 
+DEBUG - Found bean property 'applyCommonInterceptorsFirst' of type [boolean] 
+DEBUG - Found bean property 'aspectJAdvisorFactory' of type [org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory] 
+DEBUG - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;] 
+DEBUG - Found bean property 'exposeProxy' of type [boolean] 
+DEBUG - Found bean property 'frozen' of type [boolean] 
+DEBUG - Found bean property 'includePatterns' of type [java.util.List] 
+DEBUG - Found bean property 'interceptorNames' of type [[Ljava.lang.String;] 
+DEBUG - Found bean property 'opaque' of type [boolean] 
+DEBUG - Found bean property 'optimize' of type [boolean] 
+DEBUG - Found bean property 'order' of type [int] 
+DEBUG - Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'proxyTargetClass' of type [boolean] 
+DEBUG - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@6e2862] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1757322] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating shared instance of singleton bean 'log' 
+DEBUG - Creating instance of bean 'log' 
+DEBUG - Eagerly caching bean 'log' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.LogService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.LogService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'log' 
+DEBUG - Creating shared instance of singleton bean 'security' 
+DEBUG - Creating instance of bean 'security' 
+DEBUG - Eagerly caching bean 'security' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'security' 
+DEBUG - Creating shared instance of singleton bean 'tx' 
+DEBUG - Creating instance of bean 'tx' 
+DEBUG - Eagerly caching bean 'tx' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.TxService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.TxService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'tx' 
+DEBUG - Creating shared instance of singleton bean 'as' 
+DEBUG - Creating instance of bean 'as' 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logBefore() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logReturning() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logOK() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logThrowing(java.lang.Exception) 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.SecurityService.verifyUser() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.rollBack() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.begin() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.commit() 
+DEBUG - Eagerly caching bean 'as' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.AccountService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.AccountService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - 00:31:51.228 main > org.aspectj.weaver.World$TypeMap.<init> org.aspectj.weaver.World$TypeMap@1c3d7e7 org.aspectj.weaver.reflect.ReflectionWorld@9386c7 
+DEBUG - 00:31:51.233 main < org.aspectj.weaver.World$TypeMap.<init> 
+DEBUG - 00:31:51.235 main > org.aspectj.weaver.CrosscuttingMembersSet.<init> org.aspectj.weaver.CrosscuttingMembersSet@c8c892 org.aspectj.weaver.reflect.ReflectionWorld@9386c7 
+DEBUG - 00:31:51.235 main < org.aspectj.weaver.CrosscuttingMembersSet.<init> 
+DEBUG - 00:31:51.238 main > org.aspectj.weaver.Lint.<init> org.aspectj.weaver.Lint@1f33ecb org.aspectj.weaver.reflect.ReflectionWorld@9386c7 
+DEBUG - 00:31:51.238 main < org.aspectj.weaver.Lint.<init> 
+DEBUG - 00:31:51.238 main > org.aspectj.weaver.World.<init> org.aspectj.weaver.reflect.ReflectionWorld@9386c7 
+DEBUG - 00:31:51.241 main > org.aspectj.weaver.Dump.registerNode class org.aspectj.weaver.reflect.ReflectionWorld, org.aspectj.weaver.reflect.ReflectionWorld@9386c7 
+DEBUG - 00:31:51.241 main < org.aspectj.weaver.Dump.registerNode 1 
+DEBUG - 00:31:51.261 main < org.aspectj.weaver.World.<init> 
+DEBUG - 00:31:51.262 main > org.aspectj.weaver.World$TypeMap.<init> org.aspectj.weaver.World$TypeMap@1d30b80 org.aspectj.weaver.reflect.ReflectionWorld@9815f3 
+DEBUG - 00:31:51.262 main < org.aspectj.weaver.World$TypeMap.<init> 
+DEBUG - 00:31:51.262 main > org.aspectj.weaver.CrosscuttingMembersSet.<init> org.aspectj.weaver.CrosscuttingMembersSet@c93509 org.aspectj.weaver.reflect.ReflectionWorld@9815f3 
+DEBUG - 00:31:51.262 main < org.aspectj.weaver.CrosscuttingMembersSet.<init> 
+DEBUG - 00:31:51.262 main > org.aspectj.weaver.Lint.<init> org.aspectj.weaver.Lint@1b90c55 org.aspectj.weaver.reflect.ReflectionWorld@9815f3 
+DEBUG - 00:31:51.262 main < org.aspectj.weaver.Lint.<init> 
+DEBUG - 00:31:51.263 main > org.aspectj.weaver.World.<init> org.aspectj.weaver.reflect.ReflectionWorld@9815f3 
+DEBUG - 00:31:51.263 main > org.aspectj.weaver.Dump.registerNode class org.aspectj.weaver.reflect.ReflectionWorld, org.aspectj.weaver.reflect.ReflectionWorld@9815f3 
+DEBUG - 00:31:51.263 main < org.aspectj.weaver.Dump.registerNode 2 
+DEBUG - 00:31:51.263 main < org.aspectj.weaver.World.<init> 
+INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cd43ce: startup date [Thu Feb 18 01:07:34 IST 2016]; root of context hierarchy 
+INFO - Loading XML bean definitions from class path resource [jlcindia.xml] 
+DEBUG - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl] 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] 
+DEBUG - Loading schema mappings from [META-INF/spring.schemas] 
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd} 
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd 
+DEBUG - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] 
+DEBUG - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd 
+DEBUG - Loading bean definitions 
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler} 
+DEBUG - Loaded 10 bean definitions from location pattern [jlcindia.xml] 
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@cd43ce: org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references 
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Caching PropertyDescriptors for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator] 
+DEBUG - Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry] 
+DEBUG - Found bean property 'applyCommonInterceptorsFirst' of type [boolean] 
+DEBUG - Found bean property 'aspectJAdvisorFactory' of type [org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory] 
+DEBUG - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;] 
+DEBUG - Found bean property 'exposeProxy' of type [boolean] 
+DEBUG - Found bean property 'frozen' of type [boolean] 
+DEBUG - Found bean property 'includePatterns' of type [java.util.List] 
+DEBUG - Found bean property 'interceptorNames' of type [[Ljava.lang.String;] 
+DEBUG - Found bean property 'opaque' of type [boolean] 
+DEBUG - Found bean property 'optimize' of type [boolean] 
+DEBUG - Found bean property 'order' of type [int] 
+DEBUG - Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader] 
+DEBUG - Found bean property 'proxyTargetClass' of type [boolean] 
+DEBUG - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1d6e77] 
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1d9ddba] 
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+DEBUG - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+DEBUG - Creating shared instance of singleton bean 'log' 
+DEBUG - Creating instance of bean 'log' 
+DEBUG - Eagerly caching bean 'log' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.LogService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.LogService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'log' 
+DEBUG - Creating shared instance of singleton bean 'security' 
+DEBUG - Creating instance of bean 'security' 
+DEBUG - Eagerly caching bean 'security' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.SecurityService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'security' 
+DEBUG - Creating shared instance of singleton bean 'tx' 
+DEBUG - Creating instance of bean 'tx' 
+DEBUG - Eagerly caching bean 'tx' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.TxService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.TxService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - Finished creating instance of bean 'tx' 
+DEBUG - Creating shared instance of singleton bean 'as' 
+DEBUG - Creating instance of bean 'as' 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logThrowing(java.lang.Exception) 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logOK() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logBefore() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.LogService.logReturning() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.SecurityService.verifyUser() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.rollBack() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.begin() 
+DEBUG - Found AspectJ method: public void com.jlcindia.spring.TxService.commit() 
+DEBUG - Eagerly caching bean 'as' to allow for resolving potential circular references 
+DEBUG - Getting BeanInfo for class [com.jlcindia.spring.AccountService] 
+DEBUG - Caching PropertyDescriptors for class [com.jlcindia.spring.AccountService] 
+DEBUG - Found bean property 'class' of type [java.lang.Class] 
+DEBUG - 01:07:35.508 main > org.aspectj.weaver.World$TypeMap.<init> org.aspectj.weaver.World$TypeMap@9386c7 org.aspectj.weaver.reflect.ReflectionWorld@1757423 
+DEBUG - 01:07:35.534 main < org.aspectj.weaver.World$TypeMap.<init> 
+DEBUG - 01:07:35.555 main > org.aspectj.weaver.CrosscuttingMembersSet.<init> org.aspectj.weaver.CrosscuttingMembersSet@1e8065e org.aspectj.weaver.reflect.ReflectionWorld@1757423 
+DEBUG - 01:07:35.555 main < org.aspectj.weaver.CrosscuttingMembersSet.<init> 
+DEBUG - 01:07:35.566 main > org.aspectj.weaver.Lint.<init> org.aspectj.weaver.Lint@9fa239 org.aspectj.weaver.reflect.ReflectionWorld@1757423 
+DEBUG - 01:07:35.567 main < org.aspectj.weaver.Lint.<init> 
+DEBUG - 01:07:35.567 main > org.aspectj.weaver.World.<init> org.aspectj.weaver.reflect.ReflectionWorld@1757423 
+DEBUG - 01:07:35.578 main > org.aspectj.weaver.Dump.registerNode class org.aspectj.weaver.reflect.ReflectionWorld, org.aspectj.weaver.reflect.ReflectionWorld@1757423 
+DEBUG - 01:07:35.578 main < org.aspectj.weaver.Dump.registerNode 1 
+DEBUG - 01:07:35.622 main < org.aspectj.weaver.World.<init> 
+DEBUG - 01:07:35.622 main > org.aspectj.weaver.World$TypeMap.<init> org.aspectj.weaver.World$TypeMap@9815f3 org.aspectj.weaver.reflect.ReflectionWorld@c93509 
+DEBUG - 01:07:35.622 main < org.aspectj.weaver.World$TypeMap.<init> 
+DEBUG - 01:07:35.622 main > org.aspectj.weaver.CrosscuttingMembersSet.<init> org.aspectj.weaver.CrosscuttingMembersSet@1b90c55 org.aspectj.weaver.reflect.ReflectionWorld@c93509 
+DEBUG - 01:07:35.624 main < org.aspectj.weaver.CrosscuttingMembersSet.<init> 
+DEBUG - 01:07:35.624 main > org.aspectj.weaver.Lint.<init> org.aspectj.weaver.Lint@1d8ac9d org.aspectj.weaver.reflect.ReflectionWorld@c93509 
+DEBUG - 01:07:35.624 main < org.aspectj.weaver.Lint.<init> 
+DEBUG - 01:07:35.624 main > org.aspectj.weaver.World.<init> org.aspectj.weaver.reflect.ReflectionWorld@c93509 
+DEBUG - 01:07:35.624 main > org.aspectj.weaver.Dump.registerNode class org.aspectj.weaver.reflect.ReflectionWorld, org.aspectj.weaver.reflect.ReflectionWorld@c93509 
+DEBUG - 01:07:35.624 main < org.aspectj.weaver.Dump.registerNode 2 
+DEBUG - 01:07:35.624 main < org.aspectj.weaver.World.<init> 
+INFO - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4919b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,log,security,tx,as,cs]; root of factory hierarchy 

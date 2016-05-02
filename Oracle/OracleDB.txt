@@ -1,0 +1,74 @@
+*DDL: This language is used to manage database objects. It is collection of five commands.
+CREATE, ALTER, DROP, TRUNCATE, RENAME
+*DML: This language is used to manipulate the data you have stored. It is collection
+of four commands. INSERT, UPDATE, DELETE, MERGE
+*DRL: This language is used to retrieve the data from the database. It is collection of
+only one command.  SELECT
+*TCL: It is used to maintain the transaction of Oracle database. It is collection
+of three commands. COMMIT, ROLLBACK, SAVEPOINT
+*DCL: This language is used to control the axis of the data to the users it is collection
+of two commands.  GRANT, REVOKE
+
+
+select tablespace_name, table_name from user_tables;
+select * from tab;
+
+Write a query to delete first and last rows?
+
+Select * from emp where ename like '____';
+
+ALTER table student ADD(city varchar2(10));		// add column
+
+ALTER table student drop(state);				// drop column
+
+ALTER table student modify(Sname varchar2(10));	// modify column
+
+Rename student To student1;
+
+Creating duplicate tables or backup tables: 
+Create table emp2 AS select * from emp where deptno = 30; // only deptno = 30
+
+Select * from emp where 1 = 1;
+Select * from ‘malli’ from emp;
+
+
+/ Run the same query
+ED Opens the Buffer command
+
+create user malli Identified by malli123; 
+
+GRANT CONNECT, RESOURCE TO malli; //Grant Succeeded
+
+select COUNT(*) from emp; 
+Select COUNT(empno) from emp;
+
+Select SYSDATE from dual;
+Select * from emp where length(ename) = 4;
+
+select LPAD(‘oracle’,10,’z’) from dual; 
+select RPAD(‘oracle’,10,’z’) from dual; 
+
+Select TRIM(‘z’ from ‘zzoraclezz’ ) from dual;
+Select LTRIM(‘z’ from ‘zzoraclezz’ ) from dual;
+Select RTRIM(‘z’ from ‘zzoraclezz’ ) from dual;
+
+Select INSTR(‘ORACLE’,’A’) from dual; //3
+
+Select SUBSTR(‘ORACLE’,2,3) from dual; //RAC
+
+Select concat(‘MAGA’,’STAR’) from dual; //MAGASTAR
+Select ABS(-40) from dual; // 40
+Select SQRT(26) from dual; //5.09901951
+select MOD(10,3) from dual; // 1
+Select POWER(2,5) from dual; // 32
+Select CEIL(40.9) from dual; //41
+
+
+
+
+
+
+
+
+
+

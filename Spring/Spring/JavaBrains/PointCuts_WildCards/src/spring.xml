@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans  
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+           http://www.springframework.org/schema/mvc  
+           http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd  
+           http://www.springframework.org/schema/context  
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd
+           http://www.springframework.org/schema/beans  
+    		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+    		http://www.springframework.org/schema/aop   
+    		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd "  > 
+             
+  
+	<aop:aspectj-autoproxy />  
+	<context:annotation-config />
+	
+
+	<bean id="circle" class="com.jlcindia.spring.model.Circle">
+		<property name="name" value="my Circle" />
+	</bean>
+
+	<bean id="triangle" class="com.jlcindia.spring.model.Triangle">
+		<property name="name" value="my Triangle" />
+	</bean>
+
+	<bean id="shapeService" class="com.jlcindia.spring.service.ShapeService" autowire="byName" />
+	<bean id="loggingAspect" class="com.jlcindia.spring.aspects.LoggingAspect" />
+
+</beans>

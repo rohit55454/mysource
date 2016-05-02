@@ -1,0 +1,73 @@
+DDL :	CREATE, ALTER, DROP, TRUNCATE, RENAME
+DML :	INSERT, UPDATE, DELETE, MERGE
+DQL :	SELECT
+DCL :	GRANT, REVOKE
+TCL :	COMMIT, ROLLBACK
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>	connect
+>	conn
+>	connect as sysdba
+>	conn <username>/<password>
+>	connect <username>/<password>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>	ALTER USER hr ACCOUNT UNLOCK
+>	SELECT * FROM TAB;
+>	SELECT 4+5 FROM DUAL;
+
+>	create table mytable (id number(5), name varchar(20), email varchar2(25), DOB date);
+>	SELECT * FROM mytable;
+>	desc mytable;
+>	SELECT DUMP(email) from mytable;
+>	
+>	alter table mytable add salary number(20);
+>	alter table mytable modify salary number(10);
+>	alter table mytable modify salary integer;	(integer is equal to number(38))
+>	alter table mytable drop column salary;
+>	alter table mytable drop (salary, email);
+
+>	DROP is used to remove database Objects from database.
+>	drop table <table_name>
+>	drop view <view_name>
+>>	We can't drop all columns in a table.
+>>	from Oracle 10g (enterprize edition drop put the table in recycle bin)
+>	flashback table mytable to before drop;
+
+>	TO DROP PERMANENTLY :
+	=====================
+>	drop table <table_name> purge;
+
+
+>	truncate is used to remove total data from a table, but columns remains same.
+>	truncate table <table_name>
+
+>	rename <table_name> to <new_table_name>
+>	alter table <table_name> rename column <old_column> to <new_column>;
+
+>	ALL DDL COMMANDS ARE AUTO COMMITTED.
+
+		*********	DML		*************
+>	insert into <table_name> values(value1, value2);
+>	insert into <table_name> values(&col1, &col2);
+
+>	/ is used to run previous command.
+
+>	insert into <table_name>(col1, col2) values(value1, value2);
+>	update emp set salary=10000 where ename='abc';
+>>	DELETE A VALUE IN A COLUMN :
+>	update emp set salary=NULL where ename='abc';
+>	DELETE IS USED TO REMOVE ROWS FROM THE TABLES.
+>	delete from <table_name>;	//	deletes all rows.
+>	delete from <table_name> where <condition>
+>	we can rollback from delete command.
+
+>	CREATE TABLE FROM ANOTHER TABLE WITHOUT COPYING DATA
+>	create table <table_name> as select * from <existing_table_name> 1=2;	//	(1=2 refers a false condition)
+
+>	
+>	
+>	
+>	
+>	
+>	

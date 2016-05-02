@@ -1,0 +1,19 @@
+Oracle :	(Max no. of columns 1000 per table)
+========
+
+Datatypes : 
+-----------
+>	char(size)		:	max 2000 chars
+>	varchar2(size)	:	max 4000 chars
+>	number(Precision, scale) :	max value for precision(total length) is 38, and scale denotes digits after decimal.
+>	Date			:	DD-MMM-YY	(2digits_of_date-3chars_of_month-last_2_digits_of_year)
+>	raw(size)		:	max 2KB, to store logos, thumb impressions, photos etc.
+>	long			:	max 2GB, to store variable length of char data (only one Column per table of type LONG)
+>	long raw		:	max 2 GB, similar to "raw"  (only one Column per table of type LONG RAW)
+>	lob				:	max 4GB, large Object 
+								:	BLOB	(binary)
+								:	CLOB	(char)
+								:	NCLOB	(binary or char)
+
+>	Allowed Chars	:	a-z, A-Z, 0-9, $, _, @, #
+>	

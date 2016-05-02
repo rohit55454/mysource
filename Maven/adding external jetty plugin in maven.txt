@@ -1,0 +1,17 @@
+<plugins>
+	<plugin>
+		<groupId>org.mortbay.jetty</groupId>
+		<artifactId>maven-jetty-plugin</artifactId>
+		<version>6.1.10</version>
+	</plugin>
+</plugins>
+
+
+==================================================================================
+make jetty to listen for changes in any file. Add the following code to POM.xml in side jetty <pligin> node :
+
+<configuration>
+	<scanIntervalSeconds>5</scanIntervalSeconds>
+</configuration>
+
+

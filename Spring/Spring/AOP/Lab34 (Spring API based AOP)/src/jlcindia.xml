@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans  
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+           http://www.springframework.org/schema/mvc  
+           http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd  
+           http://www.springframework.org/schema/context  
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd"> 
+	<context:annotation-config />
+	
+	<bean id="ss" class="com.jlcindia.spring.SecurityService" />
+	<bean id="ls" class="com.jlcindia.spring.LogService" />
+	<bean id="ts" class="com.jlcindia.spring.TxService" />
+	<bean id="mba" class="com.jlcindia.spring.JLCMBAdvice" />
+	<bean id="mra" class="com.jlcindia.spring.JLCMRAdvice" />
+	<bean id="mta" class="com.jlcindia.spring.JLCMTAdvice" />
+	<bean id="asTarget" class="com.jlcindia.spring.AccountService" />
+	<bean id="csTarget" class="com.jlcindia.spring.CustomerServiceImpl" />
+	
+	<bean id="baseProxy" class="org.springframework.aop.framework.ProxyFactoryBean" abstract="true" >
+		<property name="interceptorNames">
+			<list>
+				<value>mba</value>
+				<value>mra</value>
+				<value>mta</value>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="asProxy" parent="baseProxy" >
+		<property name="targetClass" value="com.jlcindia.spring.AccountService" />
+		<property name="target" ref="asTarget" />
+	</bean>
+
+	<bean id="csProxy" parent="baseProxy" >
+		<property name="proxyInterfaces" value="com.jlcindia.spring.CustomerService" />
+		<property name="target" ref="csTarget" />
+	</bean>
+
+	
+</beans>
